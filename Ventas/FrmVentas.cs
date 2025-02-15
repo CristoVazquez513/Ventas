@@ -9,7 +9,7 @@ namespace Ventas
         public FrmVentas()
         {
             InitializeComponent();
-            DgvVentas.AutoGenerateColumns = false;
+            //DgvVentas.AutoGenerateColumns = false;
 
             _connectionString = "Server=localhost;" +
                 "Database=VentasDB;" +
